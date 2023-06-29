@@ -11,7 +11,7 @@
 int OddSum(int[] array)
 {
     int sum = 0;
-    for(int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (i % 2 == 1) sum = sum + array[i];
     }
